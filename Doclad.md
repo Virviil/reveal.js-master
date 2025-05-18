@@ -267,3 +267,8 @@ Go's approach strikes a nice balance between programmer ergonomics (you don't ne
 https://dzone.com/articles/go-runtime-goroutine-preemption
 
 https://winder.ai/cpu-hogging-in-golang/ - HERE is example of cpu hogging
+
+
+
+stackguard - trap - и так мы всегда проверяем стек потому что он может быть оверфлоу. Чтобы не проверять два раза
+g.preempt - только потом проверяем, это дорого
