@@ -53,7 +53,7 @@
         <section>
           <h3>Who am I</h3>
           <div class="r-hstack justify-between">
-            <img src="./assets/qravatar.png" style="max-width: 400px" />
+            <img src="./assets/linkedin.svg" style="max-width: 400px" />
             <ul>
               <li>Architect at <a href="https://root.io">Root.io</a></li>
               <li>
@@ -417,7 +417,7 @@ context_switch:
 
         <section>
           <h3>Go scheduling explained</h3>
-          <img src="./assets/scheduler.png" style="max-width: 400px" />
+          <img src="./assets/scheduler.svg" style="max-width: 400px" />
           <p>
             https://www.ardanlabs.com/blog/2018/08/scheduling-in-go-part2.html
           </p>
@@ -534,6 +534,9 @@ func main() {
             style="max-width: 400px"
             alt="Proposal"
           />
+          <p>
+            https://github.com/golang/proposal/blob/master/design/24543-non-cooperative-preemption.md
+          </p>
         </section>
 
         <section>
@@ -679,6 +682,7 @@ func main() {
 	fmt.Println("go 1.13 has never been here")
 }
 					</script></code></pre>
+          <p>backward jump = preemptible</p>
         </section>
 
         <section data-auto-animate>
@@ -705,7 +709,6 @@ func main() {
 	fmt.Println("go 1.13 and 1.14 has never been here")
 }
 					</script></code></pre>
-          <p>backward jump = preemptible</p>
         </section>
 
         <section>
